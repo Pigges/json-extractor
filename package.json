@@ -1,0 +1,13 @@
+{
+  "name": "json-extractor",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --watch api/index.ts",
+    "start": "bun run api/index.ts"
+  },
+  "dependencies": {
+    "jsonpath-plus": "^9.0.0"
+  },
+  "bunVersion": "1.x",
+  "module": "api/extract.ts"
+}

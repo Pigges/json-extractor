@@ -1,0 +1,43 @@
+# Node / Vercel / General
+node_modules/
+.dist/
+.build/
+.vercel
+.vercel_build_output/
+.output/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Vercel CLI cache
+.vercel/
+
+# Bun-specific
+bun.lockb  # Remove this line if you WANT to commit the lockfile (recommended for reproducibility)
+# Keep bun.lockb if you want exact dependency versions locked
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
